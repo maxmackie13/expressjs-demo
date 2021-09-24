@@ -1,1 +1,4 @@
 node_modules
+coverage
+.vs_code
+.DS_Store
