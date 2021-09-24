@@ -11,7 +11,7 @@ Available scripts:
   
 
 **Available Variations**
-- Getting Started
+- Getting Started *(main)*
   - 1 resource (hummus!)
   - cors
   - json body parsing
