@@ -1,4 +1,4 @@
-// require the lib we'll use
+// require the libs we'll use
 const express = require('express');
 const cors = require('cors')
 
@@ -28,8 +28,6 @@ app.get('/hummus/:hid', (req, res) => {
 })
 
 app.post('/hummus', (req, res) => {
-    // get the posted data out of the request
-    let newData = req.body
     let newId = hummuses.length + 1
     let newHummus = { id: newId, ...req.body }
     hummuses.push(newHummus)
