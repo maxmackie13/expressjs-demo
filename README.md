@@ -1,16 +1,20 @@
 # ExpressJS: Variations on a theme
 
-Install:
+## Run Demo
+**Install**
 - Clone repo & `cd` into cloned folder
 - `npm i`
 
-Available scripts:
+**Available scripts**
 - `npm run dev`: run hot-reloading dev server
 - `npm test`: run test suites
 - `npm run coverage`: run tests with coverage output
   
 
-**Available Variations**
+## Variations
+Create a [new issue](https://github.com/Gingertonic/expressjs-demo/issues/new?labels=enhancement) to request additional feature demos!
+
+**Available**
 - Getting Started *(main)*
   - 1 resource (hummus!)
   - cors
@@ -20,7 +24,7 @@ Available scripts:
   - basic jest & supertest tests
 
 
-**Upcoming Variations Features**
+**Upcoming**
 - add custom error handling
 - full CRUD
 - use query parameters
